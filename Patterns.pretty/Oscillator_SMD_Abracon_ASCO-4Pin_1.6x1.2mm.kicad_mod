@@ -1,0 +1,236 @@
+(footprint "Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Miniature Crystal Clock Oscillator Abracon ASCO series, https://abracon.com/Oscillators/ASCO.pdf, 1.6x1.2mm^2 package")
+	(tags "SMD SMT crystal oscillator")
+	(property "Reference" "REF**"
+		(at 0.025 -1.875 0)
+		(layer "F.SilkS")
+		(uuid "c5dc65c2-89ca-4beb-9025-4d6868e17423")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ASCO"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "fdd0de91-6a7c-4c6e-a24b-83ad2931955b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56265336-b115-4bd9-acd1-2b15bf0ebd08")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b65b9049-d18e-45a4-a661-fadddf7d9427")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50666287-40b0-433e-8440-3dfa8b936811")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "ASCO2-27.000MHZ-EK-T3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bd0d88b-0870-43b9-a050-cbab6c05fd4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -1)
+		(end -0.8 0.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d647d522-5d9b-49a2-99b3-8c5b8e85d66b")
+	)
+	(fp_line
+		(start 0.65 -1)
+		(end -0.8 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5fa235b-e991-4542-9e8e-82531c800688")
+	)
+	(fp_line
+		(start -0.9 -1.1)
+		(end -0.9 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "385036bb-bdca-4560-84ab-e7037899ab98")
+	)
+	(fp_line
+		(start -0.9 1.1)
+		(end 0.9 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "afd3ce40-a288-49b9-9b42-209037846ef3")
+	)
+	(fp_line
+		(start 0.9 -1.1)
+		(end -0.9 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31f1b6e6-b48f-40c8-ae05-795305dbb56e")
+	)
+	(fp_line
+		(start 0.9 1.1)
+		(end 0.9 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "efcbb433-b76c-4e92-851b-f6fd8b91d799")
+	)
+	(fp_line
+		(start -0.6 0.8)
+		(end -0.6 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87ebe31d-2486-4944-816c-c269d2cf4c0b")
+	)
+	(fp_line
+		(start -0.3 -0.8)
+		(end -0.6 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f85fb189-f8b3-4e3a-a372-eadf3b625faf")
+	)
+	(fp_line
+		(start -0.3 -0.8)
+		(end 0.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c730c3c2-4474-4c80-87d1-d286f73cfd98")
+	)
+	(fp_line
+		(start 0.6 -0.8)
+		(end 0.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4591d749-1873-4043-9534-2b66d0d7b66f")
+	)
+	(fp_line
+		(start 0.6 0.8)
+		(end -0.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "644afc79-8fc9-4e74-8cea-527be89fe1e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "685e79ef-cb82-4a84-b2fd-c6925fa985a7")
+		(effects
+			(font
+				(size 0.35 0.35)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 -0.55)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b31d9847-5a20-44c1-b040-15c39515f288")
+	)
+	(pad "2" smd rect
+		(at -0.4 0.55)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f2718978-9c82-4c40-b003-c4777122bbd8")
+	)
+	(pad "3" smd rect
+		(at 0.4 0.55)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b8935424-0473-42c4-bfa4-d15070680b46")
+	)
+	(pad "4" smd rect
+		(at 0.4 -0.55)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "540ea902-e88a-4705-881c-29cf6a5dba3e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,260 @@
+(footprint "SOT-353_SC-70-5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-353, SC-70-5")
+	(tags "SOT-353 SC-70-5")
+	(property "Reference" "REF**"
+		(at 0 -2.25 180)
+		(layer "F.SilkS")
+		(uuid "1e3c0ddf-b577-45ed-9a06-7904ed3e32fc")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "74LVC1G07"
+		(at 0 2 180)
+		(layer "F.Fab")
+		(uuid "aa80acf9-804b-4237-8f00-da76fa436567")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a601f1ad-3c37-4e75-a509-0da00869435c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3d6fc6d-c728-44e1-9a95-d16b3b2c8cf6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Single Buffer Gate, Open Drain, Low-Voltage CMOS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3b6624a-dba6-480f-8986-0f07808cc878")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "SN74LVC1G07DCKR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bd35451-d39a-493e-a1dd-61d65248e67c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.71 -1.16)
+		(end 0.7 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8609b5b5-56d3-437f-b2e3-240b60d793ee")
+	)
+	(fp_line
+		(start -0.7 1.16)
+		(end 0.7 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78633728-0e9a-41f3-be5c-c5bcf6031596")
+	)
+	(fp_poly
+		(pts
+			(xy -1.08 -1.11) (xy -1.32 -1.44) (xy -0.84 -1.44) (xy -1.08 -1.11)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "eb287b36-267c-4a3b-b4fe-9961ef66be2e")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9d785ad-8112-4374-a858-474af06fa667")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edd06996-7093-4571-a5fa-9c04ee37848e")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ee92cb8-d857-4c4f-b830-a0eaa278857e")
+	)
+	(fp_line
+		(start 1.6 1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b700e04-95ff-4117-a51d-48b16f6768e7")
+	)
+	(fp_line
+		(start -0.675 -0.6)
+		(end -0.675 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "feeb92cb-d010-49a6-af12-93854fe8528c")
+	)
+	(fp_line
+		(start -0.175 -1.1)
+		(end -0.675 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7106e6c-f5bc-4aa8-9199-8b9b2abcc559")
+	)
+	(fp_line
+		(start 0.675 -1.1)
+		(end -0.175 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd9d5959-93fd-466d-ae68-07cf5cfadba8")
+	)
+	(fp_line
+		(start 0.675 -1.1)
+		(end 0.675 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "becb3e9f-36f6-4f4f-8932-4987b4175530")
+	)
+	(fp_line
+		(start 0.675 1.1)
+		(end -0.675 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0372e8f7-f108-4c9b-ad1c-5be570dee127")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(uuid "3d2dc812-5951-4406-8988-eb2899f93d6a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.95 -0.65)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8fff4e84-e6f0-4c06-9501-cf505e43544a")
+	)
+	(pad "2" smd roundrect
+		(at -0.95 0)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1e01f403-3f5d-4041-9b9c-cbc311dca01f")
+	)
+	(pad "3" smd roundrect
+		(at -0.95 0.65)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f3ee9bfe-b7b6-4ae0-aeed-960a68ad07ac")
+	)
+	(pad "4" smd roundrect
+		(at 0.95 0.65)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "69cbb330-d80a-41b8-8054-a6c8d2581d20")
+	)
+	(pad "5" smd roundrect
+		(at 0.95 -0.65)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "911e84d3-e9c4-488b-9b7d-adc62fa77fa1")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
